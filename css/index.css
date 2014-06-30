@@ -1,0 +1,156 @@
+.circleBase {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc);
+	position: relative;
+	margin: auto;
+	margin-bottom: 8px;
+}
+
+.light {
+    width: 90px;
+    height: 90px;
+    border: 3px solid white;
+}
+
+.light a { width: 90px; height: 90px; display: block; }
+
+.plainList
+{
+    list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#infoTarget:target > #container { 
+  float: left;
+  width: 150px; 
+}
+
+#infoTarget:target > #infoContainer {
+  margin: auto 0px;
+  margin-top: 100px;
+  margin-left: -150px;
+  width: 100%;
+  color: white;
+  display:block;
+}
+
+#plusTarget:target #container {
+  float: left;
+  width: 150px;	
+}
+
+#plusTarget:target #plusContainer {
+  margin: auto 0px;
+  margin-top: 100px;
+  margin-left: -150px;
+  width: 100%;
+  color: white;
+  display:block;
+}
+
+#container {
+	padding: 20px;
+	display: table-cell; 
+	vertical-align: middle;
+	width:100%;
+}
+
+#infoContainer {
+   display:none;
+}
+
+#plusContainer {
+   display:none;
+}
+
+#emailContainer {
+   display:none;
+}
+
+#emailTarget:target #emailContainer {
+	margin: auto 0px;
+    margin-top: 100px;
+    margin-left: -150px;
+    width: 100%;
+    color: white;
+	display:block;
+}
+
+#emailTarget:target #container {
+  float: left;
+  width: 150px;	
+}
+
+#info {
+	background: transparent url('../img/info.png') no-repeat center center;
+    -moz-transition: all 500ms ease-in-out 0ms;
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -o-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+}
+
+#info:hover {
+	background: green url('../img/info-black.png') no-repeat center center;
+	border: 5px solid black;
+}
+
+#email {
+	background: transparent url('../img/email.png') no-repeat center center;
+    -moz-transition: all 500ms ease-in-out 0ms;
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -o-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+}
+
+#email:hover {
+	background: green url('../img/email-black.png') no-repeat center center;
+	border: 5px solid black;
+}
+
+#email:target {
+	border: 0px;
+	width:300px;
+	height: 100px;
+}
+
+#github {
+	background: transparent url('../img/github.png') no-repeat center center;
+    -moz-transition: all 500ms ease-in-out 0ms;
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -o-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+}
+
+#github:hover {
+	background: green url('../img/github-black.png') no-repeat center center;
+	border: 5px solid black;
+}
+
+#stackoverflow {
+	background: transparent url('../img/stackoverflow.png') no-repeat center center;
+    -moz-transition: all 500ms ease-in-out 0ms;
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -o-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+}
+
+#stackoverflow:hover {
+	background: green url('../img/stackoverflow-black.png') no-repeat center center;
+	border: 5px solid black;
+}
+
+#plus {
+	background: transparent url('../img/plus.png') no-repeat center center;
+    -moz-transition: all 500ms ease-in-out 0ms;
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -o-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+}
+
+#plus:hover {
+	background: green url('../img/plus-black.png') no-repeat center center;
+	border: 5px solid black;
+}

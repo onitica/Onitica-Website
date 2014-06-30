@@ -1,0 +1,30 @@
+{
+  "name": "OniticaWebsite",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~3.1.2",
+    "emailjs": "0.3.6",
+    "logfmt": "~0.20.0"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "gitHead": "c47e667be0e1a64c58e4f09c0057e5d3cf68caac",
+  "description": "ERROR: No README.md file found!",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onitica/Website.git"
+  },
+  "keywords": [
+    "personal",
+    "website"
+  ],
+  "author": "Octavian Nitica",
+  "license": "BSD"
+}

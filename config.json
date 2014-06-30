@@ -1,0 +1,12 @@
+{
+	"smtp" : { 
+			"username" : "example@example.com",
+			"password" : "example",
+			"host"     : "smtp.example.com"
+			}, 
+	"email_response" : {
+			"from_address" : "example@example.com",
+			"to_address" : "example@example.com",
+			"subject" : "Message from example.com"
+			}
+}
